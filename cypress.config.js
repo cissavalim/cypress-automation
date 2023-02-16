@@ -7,5 +7,8 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     specPattern: "cypress/e2e/*.js",
+    modifyObstructiveCode: true,
+    experimentalSourceRewriting: false,
+    chromeWebSecurity: false,
   },
 });
